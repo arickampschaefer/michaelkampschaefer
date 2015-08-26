@@ -1,0 +1,31 @@
+{% extends 'layout.html' %}
+
+{% block title %}Dr. Michael Kampschaefer, PsyD - Oklahoma City Therapist and Psychoanalyst - Home{% endblock %}
+
+{% block content %}
+
+	<h1>Welcome</h1>
+
+	<div class='grid'>
+		<div class='col-1-2'>
+			<p class='welcome'>Welcome to the website of Dr. Michael Kampschaefer. The choice of your personal therapist is one of the most important decisions you will ever make. If you are visiting this site for the first time, chances are you have already received my name from a friend, colleague, physician or other personal connection. Please feel free to explore the information provided and decide if an initial consultation feels right for you. The necessary forms for consultation can be downloaded from the "<a href='/services'>services</a>" page.</p>
+			<h3>Credentials</h3>
+			<p>After graduating from the University of Texas with Special Honors in Psychology and completing a Master’s of Arts in Clinical Psychology at St. Mary’s University, Dr. Kampschaefer came to Oklahoma City in 1981 from the innovative Doctor of Psychology program at Baylor University to complete an internship in Clinical Psychology at the O.U. Health Sciences Center.</p>
+			<p>He has been in the full time practice of psychotherapy since 1983.  In 1997 he completed formal training in Psychoanalysis at the Colorado Center for Psychoanalytic Studies.  He was the founding President of the Oklahoma Society for Psychoanalytic Studies (OSPS) and is a former President of the American Board and Academy of Psychoanalysis in Psychology, from which he received in 2002 the highest certification available to a psychologist, the ABPP Board Certification.</p>
+			<p>Dr. Kampschaefer is a member of the American Psychological Association (Division of Psychoanalysis) and the International Psychoanalytic Association.  He is also a Personal and Supervising Analyst with the Psychoanalytic Institute of Northern California (Oklahoma Group) and a member of the Institute for Contemporary Psychoanalysis in Los Angeles, and teaches each year in the Foundation Series sponsored by OSPS in Oklahoma City.</p>
+		</div>
+		<div class='divider'></div>
+		<div class='col-1-2'>
+			<div class="image-wrapper">
+				<img class='col-center' src="../images/professional.jpg" alt="Dr. Michael Kampschaefer">
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+	    if (window.location.pathname === '/') {
+	        document.getElementById('home').setAttribute("aria-selected", "true");
+	    }
+	</script>
+
+{% endblock %}

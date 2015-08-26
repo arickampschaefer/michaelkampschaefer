@@ -1,0 +1,43 @@
+nav[role="navigation"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  background-color: #15145e;
+  display: block;
+}
+
+nav ul {
+	list-style-type: none;
+  margin: 0;
+  padding: 0px 0px 0px 50px;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a {
+	padding: 15px 15px	;
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+nav ul li[aria-selected='true'] {
+	background-color: #26256f;
+}
+
+nav ul li:hover {
+	background-color: #26256f;
+}
+
+.banner {
+  @include box-shadow(rgba(0, 0, 0, 0.30) 0 4px 10px 0);
+    background: url(public/images/okc-skyline.jpg);
+    height: 100px;
+    background-size: cover;
+}

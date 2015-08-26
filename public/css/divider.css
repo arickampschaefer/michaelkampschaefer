@@ -1,0 +1,8 @@
+.divider {
+  position: absolute;
+  left: 50%;
+  top: 160px;
+  height: 470px;
+  margin-left: 20px;
+  border-left: 1px solid black;
+}

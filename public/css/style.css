@@ -1,0 +1,54 @@
+* {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+html {
+	height: 100%;
+}
+body {
+  position: relative;
+  margin: 0;
+  min-height: 100%;
+}
+main {
+	padding: 50px 50px 100px;
+}
+footer {
+	position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  height: 100px;
+}
+ul	{
+	list-style-type: none;
+	padding: 0;
+}
+h3 {
+	font-style: italic;
+}
+
+.form-image {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 150px;
+}
+.caption {
+    display: block;
+}
+.links > li {
+  margin-bottom: 1em; 
+}
+.welcome {
+  margin-top: 0;
+}
+.image-wrapper {
+  width: 100%;
+}
+.image-wrapper img {
+  max-width: 100%;
+  height: auto;
+  width: auto; /* For IE8 */
+}

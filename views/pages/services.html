@@ -1,0 +1,30 @@
+{% extends '../layout.html' %}
+
+{% block title %}Dr. Kampschaefer, PsyD - Oklahoma City Therapist - Services and Forms{% endblock %}
+
+{% block content %}
+
+	<h1>My Services</h1>
+	<p>My practice involves Individual as well as Couples and Family Therapy in addition to Psychoanalysis, Consultation and Supervision. Except for rare situations, I see persons who are age 16 and older.</p>
+
+	<h3>Forms</h3>
+
+	<ul>
+		<li class='form-image'>
+			<a href="./documents/HIPPAForm.pdf" target="_blank"><img src="../images/pdf_icon.png" alt='HIPPA Form' height='64' width='64'><span class='caption'>HIPPA Form</span></a>
+		</li>
+		<li class='form-image'>
+			<a href="./documents/ConsentForm.pdf" target="_blank"><img src="../images/pdf_icon.png" alt='Informed Consent Form' height='64' width='64'><span class='caption'>Informed Consent Form</span></a>
+		</li>
+		<li class='form-image'>
+			<a href="./documents/RegistrationForm.pdf" target="_blank"><img src="../images/pdf_icon.png" alt='Patient Registration Form' height='64' width='64'><span class='caption'>Patient Registration Form</span></a>
+		</li>
+	</ul>
+
+	<script type="text/javascript">
+	  if (window.location.pathname === '/services') {
+	    document.getElementById('services').setAttribute("aria-selected", "true");
+	  }
+	</script>
+
+{% endblock %}
