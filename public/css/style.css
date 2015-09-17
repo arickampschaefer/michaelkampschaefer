@@ -52,3 +52,21 @@ h3 {
   height: auto;
   width: auto; /* For IE8 */
 }
+/* HEADER */
+/* COLOR */
+nav ul li[aria-selected='true'] {
+  background-color: #126E8D;
+}
+
+nav ul li:hover {
+  background-color: #126E8D;
+}
+/* GENERAL DEFINITION */
+nav[role="navigation"] {
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  background-color: #025E7D;
+  display: block;
+}

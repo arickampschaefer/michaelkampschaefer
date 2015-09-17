@@ -1,11 +1,5 @@
 nav[role="navigation"] {
   position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 9999;
-  width: 100%;
-  background-color: #15145e;
-  display: block;
 }
 
 nav ul {
@@ -24,12 +18,4 @@ nav ul li a {
   text-align: center;
   text-transform: lowercase;
   text-decoration: underline;
-}
-
-nav ul li[aria-selected='true'] {
-	background-color: #26256f;
-}
-
-nav ul li:hover {
-	background-color: #26256f;
 }
